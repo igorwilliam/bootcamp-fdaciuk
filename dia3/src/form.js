@@ -6,7 +6,7 @@ inputName.addEventListener('input', (e) =>
     if (['de', 'da', 'do', 'dos'].includes(word.toLowerCase())) {
       return word.toLowerCase()
     }
-    return word.charAt(0).toUpperCase() + word.substr(1);
+    return word.charAt(0).toUpperCase() + word.substr(1).toLowerCase();
   }).join(' ')
 )
 
