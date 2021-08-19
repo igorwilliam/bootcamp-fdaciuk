@@ -10,7 +10,22 @@
     <form>
       <label for="name">Nome:</label>
       <input id="name" type="text" name="name" data-js="name">
+      <label for="color">Cor:</label>
+      <select id="color" name="color" multiple data-js="color">
+        <option value="red">Vermelho</option>
+        <option value="blue">Azul</option>
+        <option value="yellow">Amarelo</option>
+        <option value="green">Verde</option>
+        <option value="black">Preto</option>
+      </select>
     </form>
+    <div class="boxes">
+      <div class="red" data-js="red"></div>
+      <div class="blue" data-js="blue"></div>
+      <div class="yellow" data-js="yellow"></div>
+      <div class="green" data-js="green"></div>
+      <div class="black" data-js="black"></div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
