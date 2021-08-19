@@ -1,7 +1,37 @@
+body {
+  display: flex;
+  justify-content: space-around;
+}
+
 form {
   display: flex;
   flex-direction: column;
   width: 200px
+}
+
+.exercice-1-container {
+  width: 700px;
+}
+
+.exercice-2-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  justify-self: flex-start;
+  width: 50%;
+}
+
+.exercice-2-container button {
+  margin: 20px 0px;
+}
+
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
 form label {

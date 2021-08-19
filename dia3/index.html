@@ -7,24 +7,64 @@
     <title>Dia 3</title>
   </head>
   <body>
-    <form>
-      <label for="name">Nome:</label>
-      <input id="name" type="text" name="name" data-js="name">
-      <label for="color">Cor:</label>
-      <select id="color" name="color" multiple data-js="color">
-        <option value="red">Vermelho</option>
-        <option value="blue">Azul</option>
-        <option value="yellow">Amarelo</option>
-        <option value="green">Verde</option>
-        <option value="black">Preto</option>
-      </select>
-    </form>
-    <div class="boxes">
-      <div class="red" data-js="red"></div>
-      <div class="blue" data-js="blue"></div>
-      <div class="yellow" data-js="yellow"></div>
-      <div class="green" data-js="green"></div>
-      <div class="black" data-js="black"></div>
+    <div class="exercice-1-container">
+      <form>
+        <label for="name">Nome:</label>
+        <input id="name" type="text" name="name" data-js="name">
+
+        <label for="color">Cor:</label>
+        <select id="color" name="color" multiple data-js="color">
+          <option value="red">Vermelho</option>
+          <option value="blue">Azul</option>
+          <option value="yellow">Amarelo</option>
+          <option value="green">Verde</option>
+          <option value="black">Preto</option>
+        </select>
+      </form>
+
+      <div class="boxes">
+        <div class="red" data-js="red"></div>
+        <div class="blue" data-js="blue"></div>
+        <div class="yellow" data-js="yellow"></div>
+        <div class="green" data-js="green"></div>
+        <div class="black" data-js="black"></div>
+      </div>
+    </div>
+
+
+    <div class="exercice-2-container">
+     <form data-js="form">
+        <label for="image">Image:</label>
+        <input id="image" type="text" name="image">
+
+        <label for="brand">Marca / Modelo:</label>
+        <input id="brand" type="text" name="brand">
+
+        <label for="year">Ano:</label>
+        <input id="year" type="number" name="year">
+
+        <label for="licensePlate">Placa: </label>
+        <input id="licensePlate" type="text" name="licensePlate">
+
+        <label for="color-car">Cor:</label>
+        <input id="color-car" type="text" name="color">
+
+        <button type="submit">Adicionar carro</button>
+      </form>
+
+     <table>
+       <thead>
+         <tr>
+           <th>Imagem</th>
+           <th>Marca / Modelo</th>
+           <th>Ano</th>
+           <th>Placa</th>
+           <th>Cor</th>
+         </tr>
+       </thead>
+       <tbody data-js="table">
+       </tbody>
+      </table>
     </div>
     <script type="module" src="/src/main.js"></script>
   </body>
