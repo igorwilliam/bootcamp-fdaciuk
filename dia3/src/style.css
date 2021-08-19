@@ -16,8 +16,6 @@ form {
 .exercice-2-container {
   display: flex;
   flex-direction: column;
-  align-self: flex-start;
-  justify-self: flex-start;
   width: 50%;
 }
 
